@@ -12,3 +12,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* div.welcome {
+  background:
+} */
+
+.welcome {
+  height: 75vh;
+  vertical-align: middle;
+}
+
+.welcome-content {
+  padding-top: 20vh;
+}
+
+.welcome-logo {
+  max-height: 100px;
+  padding-right: 6%;
+  padding-left: 6%
+}
+
+.welcome .row {
+  justify-content: center
+}
+
+div.welcome .container {
+  height: 75vh;
+  background: blue;
+  color: white;
+  align-items: center;
+}
+
+div.welcome .container .row .h1,
+div.welcome .container .row .h3 {
+  color: white;
+}
