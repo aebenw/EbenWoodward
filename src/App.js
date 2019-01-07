@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import WelcomeMessage from './components/WelcomeMessage';
+import WelcomeMessage from './components/Welcome';
 
 class App extends Component {
   render() {
