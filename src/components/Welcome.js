@@ -1,9 +1,12 @@
 import React, {Fragment} from 'react';
 
+import NavBar from './nav/NavComp'
+
 
 const WelcomeMessage = () => {
   return (
     <Fragment>
+      <NavBar/>
     <h1>Welcome to Eben's Personal Site</h1>
           <h2>Currently undergoing construction</h2>
       <h3>Links to Projects</h3>
