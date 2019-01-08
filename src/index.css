@@ -38,7 +38,7 @@ code {
 
 div.welcome .container {
   height: 75vh;
-  background: blue;
+  background: #0080ffe3;
   color: white;
   align-items: center;
 }
