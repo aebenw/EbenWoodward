@@ -15,7 +15,8 @@ const linkedInImg = "https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fpluspng.com
 
 const ExternalLinks = () => {
   return(
-    <Row>
+    <Row className="external-links">
+
       <a href={gitHubLink}>
         <img class="welcome-logo" src={gitHubImg} alt="github logo"/>
       </a>

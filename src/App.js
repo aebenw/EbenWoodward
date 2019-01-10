@@ -9,7 +9,9 @@ class App extends Component {
       <div className="App">
         <NavBar />
         <Welcome />
-        <Projects />
+        <div class="section1">
+          <Projects />
+        </div>
       </div>
     );
   }

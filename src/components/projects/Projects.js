@@ -5,8 +5,6 @@ import Project from './Project'
 
 ///////////Good idea to use the GITHUB API and grab my Pinned Projects
 
-const subtleImg = "https://s3.amazonaws.com/personaleben/Screen+Shot+2019-01-09+at+4.46.47+PM.png"
-
 const kunst = {
   name: "Kunst",
   link: "https://www.youtube.com/watch?v=IiEX0H9KfbI",
@@ -33,7 +31,7 @@ const Projects = () => {
   return(
     <Container>
       <Row>
-      <h3>Projects</h3>
+      <h3 className="header">Projects</h3>
       </Row>
       <Row>
         <Project link={subtle.link} name={subtle.name} text={subtle.text} img={subtle.img}/>
