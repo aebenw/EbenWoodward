@@ -31,7 +31,7 @@ const Projects = () => {
   return(
     <Container>
       <Row>
-      <h3 className="header">Projects</h3>
+      <h3 className="info header">Projects</h3>
       </Row>
       <Row>
         <Project link={subtle.link} name={subtle.name} text={subtle.text} img={subtle.img}/>
