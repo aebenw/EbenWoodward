@@ -10,7 +10,7 @@ const Project = ({link, name, text, img}) => {
           <CardImg top width="100%" src={img} />
         </a>
         <CardBody>
-        <CardTitle>{name}</CardTitle>
+        <CardTitle className="info project-title">{name}</CardTitle>
         <CardText>{text}</CardText>
         </CardBody>
       </Card>
