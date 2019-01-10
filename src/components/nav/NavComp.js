@@ -15,7 +15,7 @@ const NavComp = () => {
       <Navbar>
         <NavbarBrand>EW</NavbarBrand>
         <Nav>
-          <NavItem>
+          {/* <NavItem>
             <NavLink>Projects</NavLink>
           </NavItem>
           <NavItem>
@@ -23,7 +23,7 @@ const NavComp = () => {
           </NavItem>
           <NavItem>
             <NavLink>Contact</NavLink>
-          </NavItem>
+          </NavItem> */}
         </Nav>
       </Navbar>
     </Fragment>

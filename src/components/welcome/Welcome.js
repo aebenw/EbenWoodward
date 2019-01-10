@@ -9,10 +9,10 @@ const Welcome = () =>{
     <Container>
       <div className="welcome-content">
       <Row>
-        <h1>Eben Woodward</h1>
+        <h1 className="info">Eben Woodward</h1>
       </Row>
       <Row>
-        <h3>Software Developer</h3>
+        <h3 className="info">Software Developer</h3>
       </Row>
       <ExternalLinks />
     </div>

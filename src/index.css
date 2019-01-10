@@ -17,19 +17,38 @@ code {
   background:
 } */
 
+.section1 {
+  margin-top: 3%;
+  padding-bottom: 3%;
+  background: #dcf5eb;
+}
+
+.header {
+  margin-bottom: 3%;
+  margin-top: 3%
+}
+
+.card{
+  height: 100%
+}
+
 .welcome {
   height: 75vh;
   vertical-align: middle;
 }
 
+.external-links {
+  padding-top: 2%;
+}
+
 .welcome-content {
-  padding-top: 20vh;
+  padding-top: 23vh;
 }
 
 .welcome-logo {
-  max-height: 100px;
-  padding-right: 6%;
-  padding-left: 6%
+  max-height: 10vh;
+  padding-right: 8%;
+  padding-left: 8%
 }
 
 .welcome .row {
@@ -41,9 +60,18 @@ div.welcome .container {
   background: #0080ffe3;
   color: white;
   align-items: center;
+  font-weight: 700;
+
 }
 
-div.welcome .container .row .h1,
-div.welcome .container .row .h3 {
+.info {
+  font-weight: 700;
+  font-style: italic;
+
+}
+
+div.welcome .container .welcome-content div.row .h1,
+div.welcome .container .welcome-content div.row .h3 {
   color: white;
+  font-weight: 700;
 }
